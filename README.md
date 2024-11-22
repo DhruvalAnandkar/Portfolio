@@ -1,5 +1,5 @@
 # Portfolio
-Quick Link:https://dhruvalanandkar.github.io/Portfolio-Website/
+Quick Link:https://dhruvalanandkar.github.io/Portfolio-Website/portfolio/portfolio/index.html
 Portfolio Website (JavaScript, HTML/CSS)
 Duration: December 2022
 

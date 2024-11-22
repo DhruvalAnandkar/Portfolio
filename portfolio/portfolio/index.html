@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website </title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/f13e80a038.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!--It is the class which conatins the objects like: home about service etc Also the Logo and background of the
+        website-->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="background1.jpg" calss = "logo"> -->
+
+                <h1><b><span>D</span>hruval.</h1>
+                <ul id="sidemenu">
+                    <li> <a href="#header"> Home </a></li>
+                    <li> <a href="#about"> About </a></li>
+                    <li> <a href="#services"> Services </a></li>
+                    <li> <a href="#portfolio"> Portfolio </a></li>
+                    <li> <a href="#contact"> Contact </a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+
+            <div class="header-text">
+                <p> AI Developer</p>
+                <h1> Hi, I'm <span>D</span>hruval<br>Anandkar From USA</h1>
+            </div>
+
+        </div>
+    </div>
+    <!--------------------About Me-------------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class=sub-title>About Me</h1>
+                    <p> I am a dedicated and results-driven <i>Computer Science</i> student with a strong background
+                        in
+                        programming, machine learning, and web development. Currently pursuing my Bachelor's degree
+                        in Computer Science at Ashland University, I have a solid foundation in Python, Java,
+                        JavaScript, and other key technologies, alongside hands-on experience in AI/ML, IoT, and
+                        cloud computing.
+
+                        Throughout my academic journey, I have developed practical skills in research and technical
+                        support, contributing to projects like AI-driven IoT systems for sustainable agriculture and
+                        machine learning-based crop recommendation engines. I have also worked in diverse roles,
+                        including a Research Assistant at Ashland University, a Technology Support Intern at Smith
+                        Structure India Pvt. Ltd., and an IT Support Specialist at Gujarat State Electricity
+                        Corporation Limited (GSECL), where I successfully improved system efficiency and resolved
+                        technical challenges.
+
+                        I am passionate about leveraging my technical expertise to solve real-world problems,
+                        particularly in areas like automation, data analysis, and resource management. My commitment
+                        to continuous learning is demonstrated by my certifications in Kubernetes, Docker,
+                        OpenShift, and Data Science with Python.
+
+                        Beyond academics and technical work, I am actively involved in community leadership, having
+                        served as the Indian Youth President at Newman Center in Tempe, Arizona, and as a leader at
+                        Nitya Sahayak Church in Gujarat, India. I enjoy collaborating with others, both in technical
+                        and community-focused initiatives, and strive to make a positive impact wherever I go.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('expirence')">Expirence</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tabs" id="skills">
+                        <ul>
+                            <li><span>Python Development</span><br>Solving LeetCode & Research work</li>
+                            <li><span>AI Development</span><br>Research Lead</li>
+                            <li><span>Web Development</span><br>Desiging Web/App Interfaces</li>
+                            <li><span>IoT Skills</span><br>Built expirence with IoT Materials and built Projects
+                                related to it.</li>
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" id="expirence">
+                        <ul>
+                            <li><span>Aug'24 - Present Reserch Team Leader </span><br>
+                                Pvt. Ltd. - Gujarat, India</li>
+                            <li><span>Dec'22 - Jan'23 Technology Support Intern </span><br>Smith Structure India
+                                Pvt. Ltd. - Gujarat, India</li>
+                            <li><span>Apr'22 - May'22 IT Support Specialist</span><br>Gujarat State Electricity
+                                Corporation Limited (GSECL) - Gujarat, India</li>
+                            <li><span>Sept'23 - Nov'23 Team Member of Cyber Security Cell</span><br>Anoopam Mission
+                                - Gujarat, India</li>
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Currently Pursuing</span><br>Bachelor's In Computer Science At Arizona State
+                                University(ASU), USA</li>
+                            <li><span>2020-2023</span><br>Diploma In Computer Science At Parul University, India
+                            </li>
+                            <li><span>2019-2020</span><br>Completed Higher Secondary Education</li>
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
+            <!------------------------Services Section-------------------------------->
+            <div id="services">
+                <div class="container">
+                    <h1 class=sub-title>My Progress</h1>
+                    <div class="services-list">
+                        <div>
+                            <i class="fa-solid fa-code"></i>
+                            <h2>AI Reserch Team Leader</h2>
+                            <p>As the Research Team Leader at Ashland University, I spearheaded the development of
+                                an AI-driven IoT system for sustainable crop management. This system involved
+                                real-time monitoring of soil moisture and sunlight exposure, providing valuable data
+                                analytics for more efficient resource utilization. I led the creation of a machine
+                                learning-powered crop recommendation engine that analyzed environmental data,
+                                offering suggestions for optimal crop selection to enhance yield and efficiency.
+                                Additionally, I guided the design of an intuitive interface with predictive alerts,
+                                empowering farmers with proactive insights to make informed decisions on irrigation,
+                                crop selection, and resource allocation. My leadership ensured the seamless
+                                integration of cutting-edge technologies to address agricultural challenges and
+                                promote sustainability.</p>
+                            <a href="#">Learn More</a>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-crop-simple"></i>
+                            <h2>Technology Support Intern</h2>
+                            <p>As a Technology Support Intern at Smith Structure India Pvt. Ltd., I played a key
+                                role in enhancing operational efficiency by improving the deployment process through
+                                the use of Kubernetes and Docker, increasing efficiency by 30%. I provided
+                                comprehensive technical support for Oracle databases, Java applications, and
+                                hardware systems, resolving 95% of technical issues for over 150 employees. My
+                                contributions also extended to setting up and configuring meeting room technology,
+                                which streamlined the setup process and reduced time spent on configurations by 30%
+                                for 50+ employees. This role allowed me to develop strong problem-solving skills
+                                while working in a fast-paced, collaborative environment, ensuring smooth day-to-day
+                                operations.
+                            </p>
+                            <a href="#">Learn More</a>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-app-store"></i>
+                            <h2>IT Support Specialist</h2>
+                            <p>As an IT Support Specialist Intern at Gujarat State Electricity Corporation Limited
+                                (GSECL), I contributed to the enhancement of IT systems by utilizing Java
+                                programming to improve system performance by 25%. I was responsible for repairing
+                                computers and troubleshooting hardware issues, successfully resolving 90% of
+                                network-related problems for over 100 employees. Additionally, I played a key role
+                                in developing web pages using PHP and XAMPP, which improved web functionality by
+                                40%. My work in this role helped optimize the company’s IT infrastructure, providing
+                                essential support for daily operations while gaining valuable experience in
+                                technical problem-solving and system maintenance..</p>
+                            <a href="#">Learn More</a>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <!------------------------------Portfolio----------------------------->
+                <div id="portfolio">
+                    <div class="container">
+                        <h1 class=sub-title>My Work</h1>
+                        <div class="work-list">
+                            <div class="work">
+                                <image src="work-1.png"></image>
+                                <div class="layer">
+                                    <h3>Netflix Clone</h3>
+                                    <p>A full-stack web application replicating the Netflix India platform, offering
+                                        user authentication, personalized content recommendations, and seamless media
+                                        streaming.</p>
+                                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </div>
+
+                            </div>
+                            <div class="work">
+                                <image src="work-2.png"></image>
+                                <div class="layer">
+                                    <h3>Collaborative Project SPYN at ASU </h3>
+                                    <p>The goal of the project was to simulate an autonomous vehicle picking up a
+                                        handicapped person by building a robot using the Lego EV3 kit and writing
+                                        software for it in MATLAB that would enable it to navigate a maze, pick up a
+                                        cardboard cutout, and navigate to another section of the maze autonomously,
+                                        while stopping at "red lights" marked by red colored squares.</p>
+                                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </div>
+                            </div>
+                            <div class="work">
+                                <image src="work-3.png"></image>
+                                <div class="layer">
+                                    <h3>Weather Forecast</h3>
+                                    <p>This weather forecast system allows users to search for real-time weather
+                                        information by entering the name of a city. The system retrieves data such as
+                                        the current temperature, humidity, wind speed, and weather conditions using the
+                                        OpenWeatherMap API and displays it in a clean and user-friendly interface.</p>
+                                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <a href="#" class="btn">See More</a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!------------------Contect------------------------------------------->
+                <div id="contact">
+                    <div class="container">
+                        <div class="row">
+                            <div class="contact-left">
+                                <h1 class="sub-title">Contact Me</h1>
+                                <p><i class="fa-solid fa-paper-plane"></i> contact@emaple.com</p>
+                                <p><i class="fa-solid fa-phone"></i> 4098164454</p>
+                                <div class="social-icons">
+                                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                    <a href=""><i class="fa-brands fa-github"></i></a>
+                                    <a href=""><i class="fa-solid fa-envelope"></i></a>
+                                </div>
+                                <a href="my-cv.pdf" download class="btn btn2">Download Resume</a>
+                            </div>
+                            <div class="contact-right">
+                                <form name="submit-to-google-sheet">
+                                    <input type="text" name="Name" placeholder="Your Name" required>
+                                    <input type="email" name="Email" placeholder="Your Email" required>
+                                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                                    <button type="submit" class="btn btn2"><b>Submit</b></button>
+                                </form>
+                                <span id="msg"></span>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        <p>Copyright <i class="fa-regular fa-copyright"></i> Dhruval</p>
+                    </div>
+                </div>
+
+                <script>
+                    var tablinks = document.getElementsByClassName("tab-links");
+                    var tabcontents = document.getElementsByClassName("tab-contents");
+                    function opentab(tabname) {
+                        for (tablink of tablinks) {
+                            tablink.classList.remove("active-link");
+                        }
+                        for (tabcontent of tabcontents) {
+                            tabcontent.classList.remove("active-tabs");
+                        }
+                        event.currentTarget.classList.add("active-link");
+                        document.getElementById(tabname).classList.add("active-tabs");
+                    }
+
+                </script>
+                <script>
+                    var sidemenu = document.getElementById("sidemenu");
+                    function openmenu() {
+                        sidemenu.style.right = "0";
+                    }
+                    function closemenu() {
+                        sidemenu.style.rigth = "-200px";
+                    }
+                </script>
+                <script>
+                    const scriptURL = 'https://script.google.com/macros/s/AKfycbztoTM6kPKt5tgFeELJgNpNSH_sSNTh-I3vP1FLsAPk7HBB3SVXdsPKJayNhBtHxUNl/exec'
+                    const form = document.forms['submit-to-google-sheet']
+                    const msg = document.getElementById("msg")
+
+                    form.addEventListener('submit', e => {
+                        e.preventDefault()
+                        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                            .then(response => {
+                                msg.innerHTML = "Message Sent Successfully"
+                                setTimeout(function () {
+                                    msg.innerHTML = ""
+
+                                }, 3000)
+                                form.reset()
+                            })
+                            .catch(error => console.error('Error!', error.message))
+                    })
+                </script>
+</body>
+
+</html>

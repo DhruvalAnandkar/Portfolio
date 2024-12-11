@@ -7,6 +7,9 @@
     <title>Personal Portfolio Website </title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/f13e80a038.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -17,13 +20,12 @@
         <div class="container">
             <nav>
                 <!-- <img src="background1.jpg" calss = "logo"> -->
-
-                <h1><b><span>D</span>hruval.</h1>
+                <h1><b><span>W</span>elcome.</h1>
                 <ul id="sidemenu">
                     <li> <a href="#header"> Home </a></li>
                     <li> <a href="#about"> About </a></li>
-                    <li> <a href="#services"> Services </a></li>
-                    <li> <a href="#portfolio"> Portfolio </a></li>
+                    <li> <a href="#services"> Experience </a></li>
+                    <li> <a href="#portfolio"> Projects </a></li>
                     <li> <a href="#contact"> Contact </a></li>
                     <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
                 </ul>
@@ -33,8 +35,8 @@
 
 
             <div class="header-text">
-                <p> AI Developer</p>
-                <h1> Hi, I'm <span>D</span>hruval<br>Anandkar From USA</h1>
+                <h1><span id="typing-text"></h1>
+                    <br><p> AI Developer</p>
             </div>
 
         </div>
@@ -49,7 +51,7 @@
                 </div>
                 <div class="about-col-2">
                     <h1 class=sub-title>About Me</h1>
-                    <p> I am a dedicated and results-driven <i>Computer Science</i> student with a strong background
+                    <p > I am a dedicated and results-driven <i>Computer Science</i> student with a strong background
                         in
                         programming, machine learning, and web development. Currently pursuing my Bachelor's degree
                         in Computer Science at Ashland University, I have a solid foundation in Python, Java,
@@ -75,15 +77,15 @@
                         and community-focused initiatives, and strive to make a positive impact wherever I go.</p>
 
                     <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links active-link" onclick="opentab('skills')"> Top-Skills</p>
                         <p class="tab-links" onclick="opentab('expirence')">Expirence</p>
                         <p class="tab-links" onclick="opentab('education')">Education</p>
                     </div>
                     <div class="tab-contents active-tabs" id="skills">
                         <ul>
-                            <li><span>Python Development</span><br>Solving LeetCode & Research work</li>
-                            <li><span>AI Development</span><br>Research Lead</li>
-                            <li><span>Web Development</span><br>Desiging Web/App Interfaces</li>
+                            <li><span>Python Development</span><br>Involving Research work at Ashland University</li>
+                            <li><span>AI Development</span><br>AI Research Team Leader at Ashland University </li>
+                            <li><span>Web Development</span><br>Desiging Websites/App Interfaces</li>
                             <li><span>IoT Skills</span><br>Built expirence with IoT Materials and built Projects
                                 related to it.</li>
                         </ul>
@@ -91,21 +93,22 @@
                     </div>
                     <div class="tab-contents" id="expirence">
                         <ul>
-                            <li><span>Aug'24 - Present Reserch Team Leader </span><br>
+                            <li><span> AU Senate Member - Internationa Student Representative (Dec'7 - Present)</span><br>
+                            Ashland University- Ashland, USA</li>
+                            <li><span> Reserch Team Leader (Aug'24 - Present) </span><br>
+                                Ashland University- Ashland, USA</li>
+                            <li><span> Data Science Club President (Aug'19 - Present)</span><br>
+                                Ashland University- Ashland, USA</li>
+                            <li><span> Technology Support Intern (Dec'22 - Jan'23)</span><br>Smith Structure India
                                 Pvt. Ltd. - Gujarat, India</li>
-                            <li><span>Dec'22 - Jan'23 Technology Support Intern </span><br>Smith Structure India
-                                Pvt. Ltd. - Gujarat, India</li>
-                            <li><span>Apr'22 - May'22 IT Support Specialist</span><br>Gujarat State Electricity
+                            <li><span> IT Support Specialist (Apr'22 - May'22)</span><br>Gujarat State Electricity
                                 Corporation Limited (GSECL) - Gujarat, India</li>
-                            <li><span>Sept'23 - Nov'23 Team Member of Cyber Security Cell</span><br>Anoopam Mission
-                                - Gujarat, India</li>
                         </ul>
 
                     </div>
                     <div class="tab-contents" id="education">
                         <ul>
-                            <li><span>Currently Pursuing</span><br>Bachelor's In Computer Science At Arizona State
-                                University(ASU), USA</li>
+                            <li><span>Currently Pursuing</span><br>Bachelor's In Computer Science At Ashland University (AU), USA</li>
                             <li><span>2020-2023</span><br>Diploma In Computer Science At Parul University, India
                             </li>
                             <li><span>2019-2020</span><br>Completed Higher Secondary Education</li>
@@ -118,7 +121,7 @@
             <!------------------------Services Section-------------------------------->
             <div id="services">
                 <div class="container">
-                    <h1 class=sub-title>My Progress</h1>
+                    <h1 class=sub-title>My Experience</h1>
                     <div class="services-list">
                         <div>
                             <i class="fa-solid fa-code"></i>
@@ -134,7 +137,7 @@
                                 crop selection, and resource allocation. My leadership ensured the seamless
                                 integration of cutting-edge technologies to address agricultural challenges and
                                 promote sustainability.</p>
-                            <a href="#">Learn More</a>
+                            <a href="https://www.linkedin.com/in/dhruvalanandkar">Learn More</a>
                         </div>
                         <div>
                             <i class="fa-solid fa-crop-simple"></i>
@@ -150,7 +153,7 @@
                                 while working in a fast-paced, collaborative environment, ensuring smooth day-to-day
                                 operations.
                             </p>
-                            <a href="#">Learn More</a>
+                            <a href="https://www.linkedin.com/in/dhruvalanandkar">Learn More</a>
                         </div>
                         <div>
                             <i class="fa-brands fa-app-store"></i>
@@ -164,7 +167,7 @@
                                 40%. My work in this role helped optimize the company’s IT infrastructure, providing
                                 essential support for daily operations while gaining valuable experience in
                                 technical problem-solving and system maintenance..</p>
-                            <a href="#">Learn More</a>
+                            <a href="https://www.linkedin.com/in/dhruvalanandkar">Learn More</a>
                         </div>
 
 
@@ -183,11 +186,11 @@
                                     <p>A full-stack web application replicating the Netflix India platform, offering
                                         user authentication, personalized content recommendations, and seamless media
                                         streaming.</p>
-                                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                    <a href="https://dhruvalanandkar.github.io/Netflix-India-Clone-/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                                 </div>
 
                             </div>
-                            <div class="work">
+                        <div class="work">
                                 <image src="work-2.png"></image>
                                 <div class="layer">
                                     <h3>Collaborative Project SPYN at ASU </h3>
@@ -196,7 +199,7 @@
                                         software for it in MATLAB that would enable it to navigate a maze, pick up a
                                         cardboard cutout, and navigate to another section of the maze autonomously,
                                         while stopping at "red lights" marked by red colored squares.</p>
-                                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                    <a href="https://dhruvalanandkar.github.io/Collaborative-Project-Webdesign-CS175/homepage/Homepage.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                                 </div>
                             </div>
                             <div class="work">
@@ -207,13 +210,13 @@
                                         information by entering the name of a city. The system retrieves data such as
                                         the current temperature, humidity, wind speed, and weather conditions using the
                                         OpenWeatherMap API and displays it in a clean and user-friendly interface.</p>
-                                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                    <a href="https://dhruvalanandkar.github.io/Weather-Forecast-/Weather.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                                 </div>
                             </div>
                         </div>
 
                         <div>
-                            <a href="#" class="btn">See More</a>
+                            <a href="https://github.com/DhruvalAnandkar" class="btn">See More</a>
                         </div>
 
                     </div>
@@ -225,23 +228,23 @@
                         <div class="row">
                             <div class="contact-left">
                                 <h1 class="sub-title">Contact Me</h1>
-                                <p><i class="fa-solid fa-paper-plane"></i> contact@emaple.com</p>
+                                <p><i class="fa-solid fa-paper-plane"></i>dhruvalabroad@gmail.com</p>
                                 <p><i class="fa-solid fa-phone"></i> 4098164454</p>
                                 <div class="social-icons">
-                                    <a href=""><i class="fa-brands fa-facebook"></i></a>
-                                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                                    <a href=""><i class="fa-brands fa-instagram"></i></a>
-                                    <a href=""><i class="fa-brands fa-github"></i></a>
-                                    <a href=""><i class="fa-solid fa-envelope"></i></a>
+                                    <a href="https://www.facebook.com/dhruval.anandkar/"><i class="fa-brands fa-facebook"></i></a>
+                                    <a href="https://www.linkedin.com/in/dhruvalanandkar"><i class="fa-brands fa-linkedin"></i></a>
+                                    <a href="https://www.instagram.com/_dhruval_anandkar_/"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="https://github.com/DhruvalAnandkar"><i class="fa-brands fa-github"></i></a>
+                                    <a href="mailto:dhruvalabroad@gmail.com"><i class="fa-solid fa-envelope"></i></a>
                                 </div>
                                 <a href="my-cv.pdf" download class="btn btn2">Download Resume</a>
                             </div>
-                            <div class="contact-right">
+                            <div class="contact-right" >
                                 <form name="submit-to-google-sheet">
                                     <input type="text" name="Name" placeholder="Your Name" required>
                                     <input type="email" name="Email" placeholder="Your Email" required>
                                     <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                                    <button type="submit" class="btn btn2"><b>Submit</b></button>
+                                    <button type="submit" class="btn btn2" id="submit"><b>Submit</b></button>
                                 </form>
                                 <span id="msg"></span>
 
@@ -252,6 +255,35 @@
                         <p>Copyright <i class="fa-regular fa-copyright"></i> Dhruval</p>
                     </div>
                 </div>
+
+
+
+                <script>
+                    // Typing Effect JavaScript
+                    const text = "Hi, I'm Dhruval Anandkar"; // The text to be typed
+                    let index = 0;
+                    const speed = 100; // Speed of typing in milliseconds
+            
+                    function typeText() {
+                        if (index < text.length) {
+                            document.getElementById("typing-text").innerHTML += text.charAt(index);
+                            index++;
+                            setTimeout(typeText, speed); // Repeat until all text is typed
+                        } else {
+                            // Once typing is complete, wait a moment and then clear the text to restart
+                            setTimeout(clearText, 1500); // Adjust delay before clearing
+                        }
+                    }
+            
+                    function clearText() {
+                        document.getElementById("typing-text").innerHTML = ""; // Clear the text
+                        index = 0; // Reset the typing index
+                        setTimeout(typeText, 500); // Restart typing after a short delay
+                    }
+            
+                    // Start typing effect once the page is loaded
+                    window.onload = typeText;
+                </script>
 
                 <script>
                     var tablinks = document.getElementsByClassName("tab-links");
